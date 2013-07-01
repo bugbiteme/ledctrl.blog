@@ -1,7 +1,7 @@
 ledctrl.blog
 ============
 
-the example from my blog post on 6/31/2013:
+The example from my blog post on 6/31/2013:
 
 - http://roverpi.blogspot.com/2013/06/taking-leds-to-next-level-web.html
 
