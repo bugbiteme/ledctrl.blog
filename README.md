@@ -7,9 +7,14 @@ PREREQS:
 
 Install the following python packages:
 
+web.py
+
 pip from http://pypi.python.org/pypi/pip
+
 distribute from http://pypi.python.org/pypi/distribute
+
 nose from http://pypi.python.org/pypi/nose/
+
 virtualenv from http://pypi.python.org/pypi/virtualenv
 
 cd into ledctrl.blog and run the start.sh script
