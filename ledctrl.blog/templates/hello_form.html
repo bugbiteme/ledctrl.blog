@@ -1,0 +1,29 @@
+$def with (light_statuses)
+$ str_status = None
+
+$if light_statuses:
+		<form action="/hello" method="POST">
+			$if light_statuses['green'] == 0:
+				<input type="image" name="led" src="static/img/green_button_off.png" style="width: 305px; height: 110px;" value="green">
+			$else:
+				<input type="image" name="led" src="static/img/green_button_on.png" style="width: 305px; height: 110px;" value="green">
+			<br/>	
+			$if light_statuses['blue'] == 0:
+				<input type="image" name="led" src="static/img/blue_button_off.png" style="width: 305px; height: 110px;" value="blue">
+			$else:
+				<input type="image" name="led" src="static/img/blue_button_on.png" style="width: 305px; height: 110px;" value="blue">
+			<br/>
+			$if light_statuses['red'] == 0:
+				<input type="image" name="led" src="static/img/red_button_off.png" style="width: 305px; height: 110px;" value="red">
+			$else:
+				<input type="image" name="led" src="static/img/red_button_on.png" style="width: 305px; height: 110px;" value="red">
+		</form>
+$else:
+   		 <form action="/hello" method="POST">
+			<input type="image" name="led" src="static/img/green_button.png" style="width: 305px; height: 110px;" value="green">
+    		<br/>
+    		<input type="image" name="led" src="static/img/blue_button.png" style="width: 305px; height: 110px;" value="blue">
+    		<br/>
+			<input type="image" name="led" src="static/img/red_button.png" style="width: 305px; height: 110px;" value="red">
+		</form>
+
