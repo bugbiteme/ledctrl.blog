@@ -22,4 +22,4 @@ Install the following python packages:
 RUNNING:
 
 - cd into ledctrl.blog and run the start.sh script
-- point your browser to http://<ip address of pi>:/1234/hello
+- point your browser to http://*ip address of pi*:/1234/hello
